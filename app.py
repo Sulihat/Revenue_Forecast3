@@ -51,7 +51,7 @@ A Smart Revenue Forecasting System.
 # Sidebar for navigation
 st.sidebar.title("Navigation")
 app_mode = st.sidebar.radio("Choose a section", 
-                            ["About"
+                            ["About",
                             "Data Upload & Preprocessing", 
                             "Model Training", 
                             "Generate Forecasts"])
