@@ -51,10 +51,10 @@ A Smart Revenue Forecasting System.
 # Sidebar for navigation
 st.sidebar.title("Navigation")
 app_mode = st.sidebar.radio("Choose a section", 
-                           ["Data Upload & Preprocessing", 
+                            ["About"
+                            "Data Upload & Preprocessing", 
                             "Model Training", 
-                            "Generate Forecasts",
-                            "About"])
+                            "Generate Forecasts"])
 
 if app_mode == "Data Upload & Preprocessing":
     st.header("📊 Data Upload & Preprocessing")
