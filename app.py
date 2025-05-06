@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Set page config
-st.set_page_config(page_title="Revenue Forecasting System", layout="wide")
+st.set_page_config(page_title="FINOPTIX", layout="wide")
 
 # Custom CSS for better styling
 st.markdown("""
@@ -43,10 +43,9 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Title and description
-st.title("💰 Revenue Forecasting System")
+st.title("💰 FINOPTIX")
 st.markdown("""
-This application helps forecast future revenue based on historical data, exchange rates (NGN/USD), 
-and inflation rates. Upload your data, train the model, and generate forecasts.
+A Smart Revenue Forecasting System.
 """)
 
 # Sidebar for navigation
